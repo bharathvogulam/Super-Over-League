@@ -1,0 +1,26 @@
+/* Write your code here. */
+.csscolors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #0f172a;
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .csscolors {
+    display: flex;
+  }
+}
+h1 {
+  color: white;
+}
+.firstImg {
+  height: 100px;
+  width: 100px;
+}
+.secondImg {
+  height: 100px;
+  width: 100px;
+}
